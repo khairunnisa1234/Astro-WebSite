@@ -1,54 +1,31 @@
-# Astro Starter Kit: Basics
+Description:
+The website is a single-page website for the fictitious fintech startup called "FinEdge." It is built using the Astro framework, which allows for modular development using HTML, CSS, and JavaScript. The website aims to showcase FinEdge's services in transforming cross-border payments. It follows responsive design principles to provide a good user experience on both desktop and mobile devices.
 
-```
-npm create astro@latest -- --template basics
-```
+The website consists of the following components:
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Navigation bar: The navigation bar is located at the top of the page and includes links to different sections of the website, such as Home, About Us, Services, and Contact Us.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Home Section: The home section is the landing section of the website. It features a catchy headline and a brief description of FinEdge, along with a background image to create an attractive visual impact.
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+About Us Section: The about us section provides a brief background about FinEdge, emphasizing its focus on transforming cross-border payments and the belief that geographic boundaries should not limit transactions.
 
-## 🚀 Project Structure
+Services Section: The services section highlights three different financial services offered by FinEdge. Each service is presented with a relevant image/icon, a title, and a brief description. The services showcased are related to individual money transfers, business payments, and real-time tracking of payments.
 
-Inside of your Astro project, you'll see the following folders and files:
+Contact Us Section: The contact us section includes a simple contact form with fields for name, email, and a message. While the form is not functional, it provides an interactive element for users to enter their contact details and message.
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Execution:
+To execute the website code:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Set up an Astro project by installing the necessary dependencies and configuring the project structure.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Place the relevant images in a directory within the project (e.g., static/images) and update the image paths in the code accordingly.
 
-Any static assets, like images, can be placed in the `public/` directory.
+Customize the content, styles, and any additional features as needed to align with the branding and design of FinEdge.
 
-## 🧞 Commands
+Run the development server using the appropriate command for the Astro framework (e.g., npm run dev).
 
-All commands are run from the root of the project, from a terminal:
+Open a web browser and visit the local development URL (e.g., http://localhost:3000) to see the website in action. The website should be responsive and display the different sections, navigation bar, services, and contact form.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Test the website's responsiveness by viewing it on different devices or using browser developer tools to simulate various screen sizes.
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+That's it! You have now designed, developed, and executed the single-page website for FinEdge using the Astro framework.
