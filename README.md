@@ -17,6 +17,8 @@ Execution:
 To execute the website code:
 
 Set up an Astro project by installing the necessary dependencies and configuring the project structure.
+using npx create-astro@3.1.8 my-astro-project
+
 
 Place the relevant images in a directory within the project (e.g., static/images) and update the image paths in the code accordingly.
 
