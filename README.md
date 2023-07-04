@@ -24,7 +24,7 @@ Place the relevant images in a directory within the project (e.g., static/images
 
 Customize the content, styles, and any additional features as needed to align with the branding and design of FinEdge.
 
-Run the development server using the appropriate command for the Astro framework (e.g., npm run dev).
+Run the development server using the command:npm run dev.
 
 Open a web browser and visit the local development URL (e.g., http://localhost:3000) to see the website in action. The website should be responsive and display the different sections, navigation bar, services, and contact form.
 
